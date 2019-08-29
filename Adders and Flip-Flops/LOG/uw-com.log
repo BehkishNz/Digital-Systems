@@ -1,0 +1,8 @@
+Model Technology ModelSim SE-64 vmap 10.5c Lib Mapping Utility 2016.07 Jul 20 2016
+vmap -c 
+Warning: vmap will not overwrite local modelsim.ini.
+Warning: Library already exists at "work-msim".
+Warning: myflipflop.vhd, line 38: Possible infinite loop: Process contains no WAIT statement.
+Warning: myflipflop.vhd, line 44: Possible infinite loop: Process contains no WAIT statement.
+Warning: myflipflop.vhd, line 50: Possible infinite loop: Process contains no WAIT statement.
+Warning: myflipflop.vhd, line 56: Possible infinite loop: Process contains no WAIT statement.

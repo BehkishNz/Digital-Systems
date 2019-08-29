@@ -1,0 +1,15 @@
+    INFO: Starting PRECISION_RTL for logic synthesis
+precision: Setting MGC_HOME to /opt-src/CMC/local/maagaard/tools/mentor/precision/Mgc_home ...
+precision: Executing on platform: CentOS Linux release 7.3.1611 (Core)  -- 3.10.0-514.16.1.el7.x86_64 -- x86_64 
+Warning: myflipflop.vhd, line 43: Possible infinite loop: Process contains no WAIT statement.
+Warning: myflipflop.vhd, line 55: Possible infinite loop: Process contains no WAIT statement.
+Warning: myflipflop.vhd, line 67: Possible infinite loop: Process contains no WAIT statement.
+Warning: myflipflop.vhd, line 81: Possible infinite loop: Process contains no WAIT statement.
+    INFO: generic-gate       netlist         written to uw_tmp/myflipflop_gate.vhd
+    INFO: 
+    INFO: ***********************************************
+    INFO: *
+    INFO: * uw-synth to MODGEN was successful
+    INFO: * log file stored in LOG/uw-synth.log
+    INFO: *
+    INFO: ***********************************************
