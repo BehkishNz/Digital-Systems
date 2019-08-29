@@ -1,0 +1,7 @@
+add wave -radix unsigned -color cyan i_cur_tempN
+add wave -radix unsigned -color cyan i_des_tempN
+add wave -color cyan i_resetN
+add wave -radix unsigned -color plum i_clockN
+add wave -color plum o_heatmodeN
+
+run 200 ns
