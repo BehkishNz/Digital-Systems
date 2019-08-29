@@ -1,0 +1,95 @@
+//  Precision RTL Synthesis 64-bit 2015.2.16 (PS2015.2.1 Production Release) Tue Jan  5 23:04:49 PST 2016
+//  
+//  Copyright (c) Mentor Graphics Corporation, 1996-2016, All Rights Reserved.
+//             Portions copyright 1991-2008 Compuware Corporation
+//                       UNPUBLISHED, LICENSED SOFTWARE.
+//            CONFIDENTIAL AND PROPRIETARY INFORMATION WHICH IS THE
+//          PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+//  
+//  Running on Linux bnassirz@ecelinux2.uwaterloo.ca #1 SMP Wed Apr 12 15:04:24 UTC 2017 3.10.0-514.16.1.el7.x86_64 x86_64
+//  
+//  Start time Thu Jun  1 19:50:35 2017
+
+
+********************************************************
+
+Library: OPERATORS    Cell: and_8u_8u    View: INTERFACE
+
+********************************************************
+
+ Number of ports :                       9
+ Number of nets :                        0
+ Number of instances :                   0
+ Number of references to this view :     1
+
+Total accumulated area : 
+ Black Box and_8u_8u :                   1
+
+***************************************************************
+
+Library: OPERATORS    Cell: add_8u_8u_8u_0_0    View: INTERFACE
+
+***************************************************************
+
+ Number of ports :                      26
+ Number of nets :                        0
+ Number of instances :                   0
+ Number of references to this view :     1
+
+Total accumulated area : 
+ Black Box add_8u_8u_8u_0_0 :            1
+
+*********************************************************
+
+Library: OPERATORS    Cell: select_3_3    View: INTERFACE
+
+*********************************************************
+
+ Number of ports :                       7
+ Number of nets :                        0
+ Number of instances :                   0
+ Number of references to this view :     2
+
+Total accumulated area : 
+ Black Box select_3_3 :                  1
+
+*****************************************
+
+Library: work    Cell: mult    View: main
+
+*****************************************
+
+  Cell               Library  References     Total Area
+
+ AND2                PRIMITIVES     7 x      1      7 AND2
+ DFF                 PRIMITIVES     2 x      1      2 DFF
+ DFFE                PRIMITIVES    15 x      1     15 DFFE
+ DFFRSE              PRIMITIVES    12 x      1     12 DFFRSE
+ FALSE               PRIMITIVES     1 x      1      1 FALSE
+ INV                 PRIMITIVES    15 x      1     15 INV
+ MUX                 PRIMITIVES    14 x      1     14 MUX
+ OR2                 PRIMITIVES     3 x      1      3 OR2
+ TRUE                PRIMITIVES     1 x      1      1 TRUE
+ add_8u_8u_8u_0_0    OPERATORS      1 x      1      1 add_8u_8u_8u_0_0
+ and_8u_8u           OPERATORS      1 x      1      1 and_8u_8u
+ select_3_3          OPERATORS      2 x      1      2 select_3_3
+
+ Number of ports :                      30
+ Number of nets :                      100
+ Number of instances :                  74
+ Number of references to this view :     0
+
+Total accumulated area : 
+ Black Box AND2 :                        7
+ Black Box DFF :                         2
+ Black Box DFFE :                       15
+ Black Box DFFRSE :                     12
+ Black Box FALSE :                       1
+ Black Box INV :                        15
+ Black Box MUX :                        14
+ Black Box OR2 :                         3
+ Black Box TRUE :                        1
+ Black Box add_8u_8u_8u_0_0 :            1
+ Black Box and_8u_8u :                   1
+ Black Box select_3_3 :                  2
+ Number of accumulated instances :      74

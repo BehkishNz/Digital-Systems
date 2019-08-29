@@ -1,0 +1,152 @@
+# Info: [9566]: Logging session transcript to file /home/bnassirz/ece327/lab2/precision.log
+//  Precision RTL Synthesis 64-bit 2015.2.16 (PS2015.2.1 Production Release) Tue Jan  5 23:04:49 PST 2016
+//  
+//  Copyright (c) Mentor Graphics Corporation, 1996-2016, All Rights Reserved.
+//             Portions copyright 1991-2008 Compuware Corporation
+//                       UNPUBLISHED, LICENSED SOFTWARE.
+//            CONFIDENTIAL AND PROPRIETARY INFORMATION WHICH IS THE
+//          PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+//  
+//  Running on Linux bnassirz@ecelinux2.uwaterloo.ca #1 SMP Wed Apr 12 15:04:24 UTC 2017 3.10.0-514.16.1.el7.x86_64 x86_64
+//  
+//  Start time Thu Jun  1 19:50:35 2017
+# -------------------------------------------------
+# Info: [9566]: Logging session transcript to file /home/bnassirz/ece327/lab2/precision.log
+# Info: [9575]: The Results Directory has been set to: /home/bnassirz/ece327/lab2/uw_tmp
+# Info: [9569]: Moving session transcript to file /home/bnassirz/ece327/lab2/uw_tmp/precision.log
+# Info: [15298]: Setting up the design to use synthesis library "max10.syn"
+# Info: [574]: The global max fanout is currently set to 1000 for Altera - MAX 10.
+# Info: [15324]: Setting Part to: "10M08SAE144C8GES".
+# Info: [15325]: Setting Process to: "8".
+# Info: USING DESIGN ARCH
+# Info: [3022]: Reading file: /opt-src/CMC/local/maagaard/tools/mentor/precision/Mgc_home/pkgs/psr/techlibs/max10.syn.
+# Info: [633]: Loading library initialization file /opt-src/CMC/local/maagaard/tools/mentor/precision/Mgc_home/pkgs/psr/userware/yeager_rename.tcl
+# Info: [40000]: vhdlorder, Release 2015b.13
+# Info: [40000]: Files sorted successfully.
+# Info: [40000]: hdl-analyze, Release RTLC-Precision 2015b.13
+# Info: [42502]: Analyzing input file "/home/bnassirz/ece327/lab2/util.vhd" ...
+# Info: [42502]: Analyzing input file "/home/bnassirz/ece327/lab2/mult.vhd" ...
+# Info: [656]: Current working directory: /home/bnassirz/ece327/lab2/uw_tmp.
+# Info: [40000]: RTLC-Driver, Release RTLC-Precision 2015b.13
+# Info: [40000]: Last compiled on Dec 24 2015 14:33:45
+# Info: [44512]: Initializing...
+# Info: [44504]: Partitioning design ....
+# Info: [40000]: RTLCompiler, Release RTLC-Precision 2015b.13
+# Info: [40000]: Last compiled on Dec 24 2015 15:06:12
+# Info: [44512]: Initializing...
+# Info: [44522]: Root Module work.mult(main): Pre-processing...
+# Info: [40000]: FSM: Removing state for un-assigned literal         10
+# Info: [45144]: Extracted FSM in module work.mult(main), with state variable = current_state[1:0], async set/reset state(s) = (none), number of states = 3.
+# Info: [45144]: Preserving the original encoding in 3 state FSM
+# Info: [45144]: FSM: State encoding table.
+# Info: [40000]: FSM:	Index	                            Literal	                      Encoding
+# Info: [40000]: FSM:	    0	                                 00	                            00
+# Info: [40000]: FSM:	    1	                                 01	                            01
+# Info: [40000]: FSM:	    2	                                 11	                            11
+# Info: [44523]: Root Module work.mult(main): Compiling...
+# Warning: [45702]: "/home/bnassirz/ece327/lab2/mult.vhd", line 32: Initial value for a[7:0] is ignored for synthesis. To allow initial value for synthesis, please set the attribute "allow_init_val" in HDL or enable the global support for initial value synthesis through "compile_initial_values" switch.
+# Warning: [45702]: "/home/bnassirz/ece327/lab2/mult.vhd", line 32: Initial value for b[7:0] is ignored for synthesis. To allow initial value for synthesis, please set the attribute "allow_init_val" in HDL or enable the global support for initial value synthesis through "compile_initial_values" switch.
+# Warning: [45702]: "/home/bnassirz/ece327/lab2/mult.vhd", line 32: Initial value for z[7:0] is ignored for synthesis. To allow initial value for synthesis, please set the attribute "allow_init_val" in HDL or enable the global support for initial value synthesis through "compile_initial_values" switch.
+# Info: [44842]: Compilation successfully completed.
+# Info: [44856]: Total lines of RTL compiled: 56.
+# Info: [44835]: Total CPU time for compilation: 0.0 secs.
+# Info: [44513]: Overall running time for compilation: 1.0 secs.
+# Info: [656]: Current working directory: /home/bnassirz/ece327/lab2/uw_tmp.
+# Info: [15330]: Doing rtl optimizations.
+# Info: [1075]: Constraints: Precision will generate the constraint: create_clock [get_ports clk] -name clk -period 20 -waveform {0 10} on port:clk. Reason: setup_design -frequency. Please override the constraint if needed.
+# Info: [1078]: Constraints: Precision will generate the following clock domain information against the clocks. Since the clock domain information is not provided by the user for the below clocks, all clocks are assumed to be synchronous clocks. This will result in all paths between the clock domains to be analyzed for timing. If this behaviour is not intended for any clock domain or path, please override using -domain option or false path constraint. Among these clocks, clock with the smallest period will be chosen as the default domain and the rest of the clock periods specified using multiply-by or divide-by factor.
+# Info: Constraints: Precision Generated Clock Domains:
+# Info: 	Domain Name: xmplr_ClockDomain_clk		Clock Name: clk
+# Info: [659]: Finished compiling design.
+# Info: [3027]: Writing file: /home/bnassirz/ece327/lab2/uw_tmp/mult_gate.vhd.
+# Info: Info, Command 'auto_write' finished successfully
+# Info: [3027]: Writing file: /home/bnassirz/ece327/lab2/uw_tmp/mult_gate.vhd.
+# Info: Info, Command 'auto_write' finished successfully
+# Info: [656]: Current working directory: /home/bnassirz/ece327/lab2/uw_tmp.
+# Info: [15002]: Optimizing design view:.work.mult.main
+# Info: [1078]: Constraints: Precision will generate the following clock domain information against the clocks. Since the clock domain information is not provided by the user for the below clocks, all clocks are assumed to be synchronous clocks. This will result in all paths between the clock domains to be analyzed for timing. If this behaviour is not intended for any clock domain or path, please override using -domain option or false path constraint. Among these clocks, clock with the smallest period will be chosen as the default domain and the rest of the clock periods specified using multiply-by or divide-by factor.
+# Info: Constraints: Precision Generated Clock Domains:
+# Info: 	Domain Name: xmplr_ClockDomain_clk		Clock Name: clk
+# Info: [12045]: Starting timing reports generation...
+# Info: [12046]: Timing reports generation done.
+# Info: [12047]: POST-SYNTHESIS TIMING REPORTS ARE ESTIMATES AND SHOULD NOT BE RELIED ON TO MAKE QoR DECISIONS. For accurate timing information, please run place-and-route (P&R) and review P&R generated timing reports.
+# Info: [3027]: Writing file: /home/bnassirz/ece327/lab2/uw_tmp/mult.vhd.
+# Info: Info, Writing xrf file '/home/bnassirz/ece327/lab2/uw_tmp/mult.xrf'
+# Info: [3027]: Writing file: /home/bnassirz/ece327/lab2/uw_tmp/mult.xrf.
+# Info: [3027]: Writing file: /home/bnassirz/ece327/lab2/uw_tmp/mult.v.
+# Info: [3027]: Writing file: /home/bnassirz/ece327/lab2/uw_tmp/mult.xrf.
+# Info: [3027]: Writing file: /home/bnassirz/ece327/lab2/uw_tmp/mult.vqm.
+# Info: [3027]: Writing file: /home/bnassirz/ece327/lab2/uw_tmp/mult.xrf.
+# Info: -- Writing file /home/bnassirz/ece327/lab2/uw_tmp/mult.tcl
+# Info: exq_pr_compile_project gen_vcf mult 1
+# Info: [659]: Finished synthesizing design.
+# Info: [11019]: Total CPU time for synthesis: 0.3 s secs.
+# Info: [11020]: Overall running time for synthesis: 0.6 s secs.
+# Warning: [11029]: Your synthesis will restart from the compile step.
+# Info: [633]: Loading library initialization file /opt-src/CMC/local/maagaard/tools/mentor/precision/Mgc_home/pkgs/psr/userware/yeager_rename.tcl
+# Info: [40000]: vhdlorder, Release 2015b.13
+# Info: [40000]: Files sorted successfully.
+# Info: [40000]: hdl-analyze, Release RTLC-Precision 2015b.13
+# Info: [42502]: Analyzing input file "/home/bnassirz/ece327/lab2/util.vhd" ...
+# Info: [42502]: Analyzing input file "/home/bnassirz/ece327/lab2/mult.vhd" ...
+# Info: [656]: Current working directory: /home/bnassirz/ece327/lab2/uw_tmp.
+# Info: [40000]: RTLC-Driver, Release RTLC-Precision 2015b.13
+# Info: [40000]: Last compiled on Dec 24 2015 14:33:45
+# Info: [44512]: Initializing...
+# Info: [44504]: Partitioning design ....
+# Info: [40000]: RTLCompiler, Release RTLC-Precision 2015b.13
+# Info: [40000]: Last compiled on Dec 24 2015 15:06:12
+# Info: [44512]: Initializing...
+# Info: [44522]: Root Module work.mult(main): Pre-processing...
+# Info: [40000]: FSM: Removing state for un-assigned literal         10
+# Info: [45144]: Extracted FSM in module work.mult(main), with state variable = current_state[1:0], async set/reset state(s) = (none), number of states = 3.
+# Info: [45144]: Preserving the original encoding in 3 state FSM
+# Info: [45144]: FSM: State encoding table.
+# Info: [40000]: FSM:	Index	                            Literal	                      Encoding
+# Info: [40000]: FSM:	    0	                                 00	                            00
+# Info: [40000]: FSM:	    1	                                 01	                            01
+# Info: [40000]: FSM:	    2	                                 11	                            11
+# Info: [44523]: Root Module work.mult(main): Compiling...
+# Warning: [45702]: "/home/bnassirz/ece327/lab2/mult.vhd", line 32: Initial value for a[7:0] is ignored for synthesis. To allow initial value for synthesis, please set the attribute "allow_init_val" in HDL or enable the global support for initial value synthesis through "compile_initial_values" switch.
+# Warning: [45702]: "/home/bnassirz/ece327/lab2/mult.vhd", line 32: Initial value for b[7:0] is ignored for synthesis. To allow initial value for synthesis, please set the attribute "allow_init_val" in HDL or enable the global support for initial value synthesis through "compile_initial_values" switch.
+# Warning: [45702]: "/home/bnassirz/ece327/lab2/mult.vhd", line 32: Initial value for z[7:0] is ignored for synthesis. To allow initial value for synthesis, please set the attribute "allow_init_val" in HDL or enable the global support for initial value synthesis through "compile_initial_values" switch.
+# Info: [44842]: Compilation successfully completed.
+# Info: [44856]: Total lines of RTL compiled: 56.
+# Info: [44835]: Total CPU time for compilation: 0.0 secs.
+# Info: [44513]: Overall running time for compilation: 1.0 secs.
+# Info: [656]: Current working directory: /home/bnassirz/ece327/lab2/uw_tmp.
+# Info: [15330]: Doing rtl optimizations.
+# Info: [1075]: Constraints: Precision will generate the constraint: create_clock [get_ports clk] -name clk -period 20 -waveform {0 10} on port:clk. Reason: setup_design -frequency. Please override the constraint if needed.
+# Info: [1078]: Constraints: Precision will generate the following clock domain information against the clocks. Since the clock domain information is not provided by the user for the below clocks, all clocks are assumed to be synchronous clocks. This will result in all paths between the clock domains to be analyzed for timing. If this behaviour is not intended for any clock domain or path, please override using -domain option or false path constraint. Among these clocks, clock with the smallest period will be chosen as the default domain and the rest of the clock periods specified using multiply-by or divide-by factor.
+# Info: Constraints: Precision Generated Clock Domains:
+# Info: 	Domain Name: xmplr_ClockDomain_clk		Clock Name: clk
+# Info: [659]: Finished compiling design.
+# Info: [656]: Current working directory: /home/bnassirz/ece327/lab2/uw_tmp.
+# Info: [15002]: Optimizing design view:.work.mult.main
+# Info: [1078]: Constraints: Precision will generate the following clock domain information against the clocks. Since the clock domain information is not provided by the user for the below clocks, all clocks are assumed to be synchronous clocks. This will result in all paths between the clock domains to be analyzed for timing. If this behaviour is not intended for any clock domain or path, please override using -domain option or false path constraint. Among these clocks, clock with the smallest period will be chosen as the default domain and the rest of the clock periods specified using multiply-by or divide-by factor.
+# Info: Constraints: Precision Generated Clock Domains:
+# Info: 	Domain Name: xmplr_ClockDomain_clk		Clock Name: clk
+# Info: [12045]: Starting timing reports generation...
+# Info: [12046]: Timing reports generation done.
+# Info: [12047]: POST-SYNTHESIS TIMING REPORTS ARE ESTIMATES AND SHOULD NOT BE RELIED ON TO MAKE QoR DECISIONS. For accurate timing information, please run place-and-route (P&R) and review P&R generated timing reports.
+# Info: [3027]: Writing file: /home/bnassirz/ece327/lab2/uw_tmp/mult.vhd.
+# Info: [3027]: Writing file: /home/bnassirz/ece327/lab2/uw_tmp/mult.xrf.
+# Info: [3027]: Writing file: /home/bnassirz/ece327/lab2/uw_tmp/mult.v.
+# Info: [3027]: Writing file: /home/bnassirz/ece327/lab2/uw_tmp/mult.xrf.
+# Info: [3027]: Writing file: /home/bnassirz/ece327/lab2/uw_tmp/mult.vqm.
+# Info: [3027]: Writing file: /home/bnassirz/ece327/lab2/uw_tmp/mult.xrf.
+# Info: -- Writing file /home/bnassirz/ece327/lab2/uw_tmp/mult.tcl
+# Info: exq_pr_compile_project gen_vcf mult 1
+# Info: [659]: Finished synthesizing design.
+# Info: [11019]: Total CPU time for synthesis: 0.2 s secs.
+# Info: [11020]: Overall running time for synthesis: 0.4 s secs.
+# Info: clk
+# Info: 1
+# Info: 0
+# Info: [3027]: Writing file: /home/bnassirz/ece327/lab2/uw_tmp/mult_logic.sdf.
+# Info: [654]: Using verilog names style for SDF.
+# Info: [634]: Do 'set sdf_names_style vhdl' to use vhdl names style for SDF.
+# Info: Info, Writing xrf file 'uw_tmp/mult_logic.xrf'
+# Info: [3027]: Writing file: /home/bnassirz/ece327/lab2/uw_tmp/mult_logic.xrf.
+# Info: Info, Command 'auto_write' finished successfully
+# Info: *** logic synthesis succeeded ***

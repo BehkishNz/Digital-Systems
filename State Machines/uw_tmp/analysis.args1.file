@@ -1,0 +1,11 @@
+8:-out_dir
+42:/home/bnassirz/ece327/lab2/uw_tmp/rtlc.out
+10:-pipe_flow
+4:-vhf
+53:/home/bnassirz/ece327/lab2/uw_tmp/hdlAnalyze_vhdlfile
+25:-comment_transoff_regions
+7:-vh2008
+13:-lib_map_file
+42:/home/bnassirz/ece327/lab2/uw_tmp/.jaguarc
+34:+incdir+/home/bnassirz/ece327/lab2
+17:+define+synthesis

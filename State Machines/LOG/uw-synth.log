@@ -1,0 +1,179 @@
+    INFO: Starting PRECISION_RTL for logic synthesis
+precision: Setting MGC_HOME to /opt-src/CMC/local/maagaard/tools/mentor/precision/Mgc_home ...
+precision: Executing on platform: CentOS Linux release 7.3.1611 (Core)  -- 3.10.0-514.16.1.el7.x86_64 -- x86_64 
+//  Precision RTL Synthesis 64-bit 2015.2.16 (PS2015.2.1 Production Release) Tue Jan  5 23:04:49 PST 2016
+//  
+//  Copyright (c) Mentor Graphics Corporation, 1996-2016, All Rights Reserved.
+//             Portions copyright 1991-2008 Compuware Corporation
+//                       UNPUBLISHED, LICENSED SOFTWARE.
+//            CONFIDENTIAL AND PROPRIETARY INFORMATION WHICH IS THE
+//          PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+//  
+//  Running on Linux bnassirz@ecelinux2.uwaterloo.ca #1 SMP Wed Apr 12 15:04:24 UTC 2017 3.10.0-514.16.1.el7.x86_64 x86_64
+//  
+//  Start time Thu Jun  1 19:50:35 2017
+-------------------------------------------------
+Info: Logging session transcript to file precision.log
+Info: The Results Directory has been set to: uw_tmp
+Info: Moving session transcript to file uw_tmp/precision.log
+Info: Setting up the design to use synthesis library "max10.syn"
+Info: The global max fanout is currently set to 1000 for Altera - MAX 10.
+Info: Setting Part to: "10M08SAE144C8GES".
+Info: Setting Process to: "8".
+Info: USING DESIGN ARCH
+Info: Reading file: /opt-src/CMC/local/maagaard/tools/mentor/precision/Mgc_home/pkgs/psr/techlibs/max10.syn.
+Info: Loading library initialization file /opt-src/CMC/local/maagaard/tools/mentor/precision/Mgc_home/pkgs/psr/userware/yeager_rename.tcl
+Info: vhdlorder, Release 2015b.13
+Info: Files sorted successfully.
+Info: hdl-analyze, Release RTLC-Precision 2015b.13
+INFO: Analyzing "util.vhd"
+INFO: Analyzing "mult.vhd"
+Info: Current working directory: uw_tmp.
+Info: RTLC-Driver, Release RTLC-Precision 2015b.13
+Info: Last compiled on Dec 24 2015 14:33:45
+Info: Initializing...
+Info: Partitioning design ....
+Info: RTLCompiler, Release RTLC-Precision 2015b.13
+Info: Last compiled on Dec 24 2015 15:06:12
+Info: Initializing...
+Info: Root Module work.mult(main): Pre-processing...
+Info: FSM: Removing state for un-assigned literal         10
+Info: Extracted FSM in module work.mult(main), with state variable = current_state[1:0], async set/reset state(s) = (none), number of states = 3.
+Info: Preserving the original encoding in 3 state FSM
+Info: FSM: State encoding table.
+Info: FSM:	Index	                            Literal	                      Encoding
+Info: FSM:	    0	                                 00	                            00
+Info: FSM:	    1	                                 01	                            01
+Info: FSM:	    2	                                 11	                            11
+Info: Root Module work.mult(main): Compiling...
+Warning: "mult.vhd", line 32: Initial value for a[7:0] is ignored for synthesis. To allow initial value for synthesis, please set the attribute "allow_init_val" in HDL or enable the global support for initial value synthesis through "compile_initial_values" switch.
+Warning: "mult.vhd", line 32: Initial value for b[7:0] is ignored for synthesis. To allow initial value for synthesis, please set the attribute "allow_init_val" in HDL or enable the global support for initial value synthesis through "compile_initial_values" switch.
+Warning: "mult.vhd", line 32: Initial value for z[7:0] is ignored for synthesis. To allow initial value for synthesis, please set the attribute "allow_init_val" in HDL or enable the global support for initial value synthesis through "compile_initial_values" switch.
+Info: Compilation successfully completed.
+Info: Total lines of RTL compiled: 56.
+Info: Total CPU time for compilation: 0.0 secs.
+Info: Overall running time for compilation: 1.0 secs.
+Info: Current working directory: uw_tmp.
+Info: Doing rtl optimizations.
+Info: Constraints: Precision will generate the constraint: create_clock [get_ports clk] -name clk -period 20 -waveform {0 10} on port:clk. Reason: setup_design -frequency. Please override the constraint if needed.
+Info: Constraints: Precision will generate the following clock domain information against the clocks. Since the clock domain information is not provided by the user for the below clocks, all clocks are assumed to be synchronous clocks. This will result in all paths between the clock domains to be analyzed for timing. If this behaviour is not intended for any clock domain or path, please override using -domain option or false path constraint. Among these clocks, clock with the smallest period will be chosen as the default domain and the rest of the clock periods specified using multiply-by or divide-by factor.
+Info: Constraints: Precision Generated Clock Domains:
+Info: 	Domain Name: xmplr_ClockDomain_clk		Clock Name: clk
+Info: Finished compiling design.
+Info: Writing file: uw_tmp/mult_gate.vhd.
+Info: Info, Command 'auto_write' finished successfully
+Info: Writing file: uw_tmp/mult_gate.vhd.
+Info: Info, Command 'auto_write' finished successfully
+Info: Current working directory: uw_tmp.
+Info: Optimizing design view:.work.mult.main
+Info: Constraints: Precision will generate the following clock domain information against the clocks. Since the clock domain information is not provided by the user for the below clocks, all clocks are assumed to be synchronous clocks. This will result in all paths between the clock domains to be analyzed for timing. If this behaviour is not intended for any clock domain or path, please override using -domain option or false path constraint. Among these clocks, clock with the smallest period will be chosen as the default domain and the rest of the clock periods specified using multiply-by or divide-by factor.
+Info: Constraints: Precision Generated Clock Domains:
+Info: 	Domain Name: xmplr_ClockDomain_clk		Clock Name: clk
+Info: Starting timing reports generation...
+Info: Timing reports generation done.
+Info: POST-SYNTHESIS TIMING REPORTS ARE ESTIMATES AND SHOULD NOT BE RELIED ON TO MAKE QoR DECISIONS. For accurate timing information, please run place-and-route (P&R) and review P&R generated timing reports.
+Info: Writing file: uw_tmp/mult.vhd.
+Info: Info, Writing xrf file 'uw_tmp/mult.xrf'
+Info: Writing file: uw_tmp/mult.xrf.
+Info: Writing file: uw_tmp/mult.v.
+Info: Writing file: uw_tmp/mult.xrf.
+Info: Writing file: uw_tmp/mult.vqm.
+Info: Writing file: uw_tmp/mult.xrf.
+Info: -- Writing file uw_tmp/mult.tcl
+Info: exq_pr_compile_project gen_vcf mult 1
+Info: Finished synthesizing design.
+Info: Total CPU time for synthesis: 0.3 s secs.
+Info: Overall running time for synthesis: 0.6 s secs.
+Warning: Your synthesis will restart from the compile step.
+Info: Loading library initialization file /opt-src/CMC/local/maagaard/tools/mentor/precision/Mgc_home/pkgs/psr/userware/yeager_rename.tcl
+Info: vhdlorder, Release 2015b.13
+Info: Files sorted successfully.
+Info: hdl-analyze, Release RTLC-Precision 2015b.13
+INFO: Analyzing "util.vhd"
+INFO: Analyzing "mult.vhd"
+Info: Current working directory: uw_tmp.
+Info: RTLC-Driver, Release RTLC-Precision 2015b.13
+Info: Last compiled on Dec 24 2015 14:33:45
+Info: Initializing...
+Info: Partitioning design ....
+Info: RTLCompiler, Release RTLC-Precision 2015b.13
+Info: Last compiled on Dec 24 2015 15:06:12
+Info: Initializing...
+Info: Root Module work.mult(main): Pre-processing...
+Info: FSM: Removing state for un-assigned literal         10
+Info: Extracted FSM in module work.mult(main), with state variable = current_state[1:0], async set/reset state(s) = (none), number of states = 3.
+Info: Preserving the original encoding in 3 state FSM
+Info: FSM: State encoding table.
+Info: FSM:	Index	                            Literal	                      Encoding
+Info: FSM:	    0	                                 00	                            00
+Info: FSM:	    1	                                 01	                            01
+Info: FSM:	    2	                                 11	                            11
+Info: Root Module work.mult(main): Compiling...
+Warning: "mult.vhd", line 32: Initial value for a[7:0] is ignored for synthesis. To allow initial value for synthesis, please set the attribute "allow_init_val" in HDL or enable the global support for initial value synthesis through "compile_initial_values" switch.
+Warning: "mult.vhd", line 32: Initial value for b[7:0] is ignored for synthesis. To allow initial value for synthesis, please set the attribute "allow_init_val" in HDL or enable the global support for initial value synthesis through "compile_initial_values" switch.
+Warning: "mult.vhd", line 32: Initial value for z[7:0] is ignored for synthesis. To allow initial value for synthesis, please set the attribute "allow_init_val" in HDL or enable the global support for initial value synthesis through "compile_initial_values" switch.
+Info: Compilation successfully completed.
+Info: Total lines of RTL compiled: 56.
+Info: Total CPU time for compilation: 0.0 secs.
+Info: Overall running time for compilation: 1.0 secs.
+Info: Current working directory: uw_tmp.
+Info: Doing rtl optimizations.
+Info: Constraints: Precision will generate the constraint: create_clock [get_ports clk] -name clk -period 20 -waveform {0 10} on port:clk. Reason: setup_design -frequency. Please override the constraint if needed.
+Info: Constraints: Precision will generate the following clock domain information against the clocks. Since the clock domain information is not provided by the user for the below clocks, all clocks are assumed to be synchronous clocks. This will result in all paths between the clock domains to be analyzed for timing. If this behaviour is not intended for any clock domain or path, please override using -domain option or false path constraint. Among these clocks, clock with the smallest period will be chosen as the default domain and the rest of the clock periods specified using multiply-by or divide-by factor.
+Info: Constraints: Precision Generated Clock Domains:
+Info: 	Domain Name: xmplr_ClockDomain_clk		Clock Name: clk
+Info: Finished compiling design.
+Info: Current working directory: uw_tmp.
+Info: Optimizing design view:.work.mult.main
+Info: Constraints: Precision will generate the following clock domain information against the clocks. Since the clock domain information is not provided by the user for the below clocks, all clocks are assumed to be synchronous clocks. This will result in all paths between the clock domains to be analyzed for timing. If this behaviour is not intended for any clock domain or path, please override using -domain option or false path constraint. Among these clocks, clock with the smallest period will be chosen as the default domain and the rest of the clock periods specified using multiply-by or divide-by factor.
+Info: Constraints: Precision Generated Clock Domains:
+Info: 	Domain Name: xmplr_ClockDomain_clk		Clock Name: clk
+Info: Starting timing reports generation...
+Info: Timing reports generation done.
+Info: POST-SYNTHESIS TIMING REPORTS ARE ESTIMATES AND SHOULD NOT BE RELIED ON TO MAKE QoR DECISIONS. For accurate timing information, please run place-and-route (P&R) and review P&R generated timing reports.
+Info: Writing file: uw_tmp/mult.vhd.
+Info: Writing file: uw_tmp/mult.xrf.
+Info: Writing file: uw_tmp/mult.v.
+Info: Writing file: uw_tmp/mult.xrf.
+Info: Writing file: uw_tmp/mult.vqm.
+Info: Writing file: uw_tmp/mult.xrf.
+Info: -- Writing file uw_tmp/mult.tcl
+Info: exq_pr_compile_project gen_vcf mult 1
+Info: Finished synthesizing design.
+Info: Total CPU time for synthesis: 0.2 s secs.
+Info: Overall running time for synthesis: 0.4 s secs.
+Info: clk
+Info: 1
+Info: 0
+Info: Writing file: uw_tmp/mult_logic.sdf.
+Info: Using verilog names style for SDF.
+Info: Do 'set sdf_names_style vhdl' to use vhdl names style for SDF.
+Info: Info, Writing xrf file 'uw_tmp/mult_logic.xrf'
+Info: Writing file: uw_tmp/mult_logic.xrf.
+Info: Info, Command 'auto_write' finished successfully
+Info: *** logic synthesis succeeded ***
+    INFO: generic-gate       netlist         written to uw_tmp/mult_gate.vhd
+    INFO: generic-gate       area estimate   written to RPT/area_gate.rpt
+    INFO: logic-synthesis    netlist         written to uw_tmp/mult_logic.vhd
+    INFO: logic-synthesis    area estimate   written to RPT/area_logic.rpt
+    INFO: logic-synthesis    timing estimate written to RPT/timing_logic.rpt
+    INFO: --------------------------------------------------------------------------------
+    INFO: AREA = 34 cells (34 luts, 29 regs) (estimated by logic-synthesis)
+    INFO: Speed on Max 10 = 244 MHz,  4.10 ns (estimated by logic-synthesis)
+    INFO: --------------------------------------------------------------------------------
+    INFO: CRITICAL PATHS (slowest 5 paths, estimated by logic synthesis)
+    INFO: ..........Delays.........
+    INFO:  Total  Datapath  Routing          Source              Dest
+    INFO: ------  --------  -------   --------------------  ---------------------
+    INFO:   4.10     3.30     0.80    a(1)                  b(0)/ena             
+    INFO:   4.09     3.30     0.79    a(0)                  b(0)/ena             
+    INFO:   3.93     3.13     0.79    a(2)                  b(0)/ena             
+    INFO:   3.93     3.13     0.79    a(5)                  b(0)/ena             
+    INFO:   3.92     3.13     0.79    a(4)                  b(0)/ena             
+    INFO: 
+    INFO: ***********************************************
+    INFO: *
+    INFO: * uw-synth to lstep was successful
+    INFO: * log file stored in LOG/uw-synth.log
+    INFO: *
+    INFO: ***********************************************

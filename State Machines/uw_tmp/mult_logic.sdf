@@ -1,0 +1,1150 @@
+(DELAYFILE
+ (SDFVERSION "2.0")
+ (DESIGN "mult")
+ (DATE "Thu Jun  1 19:50:39 2017")
+ (VENDOR "Mentor Graphics Corporation, Wilsonville, OR")
+ (PROGRAM "Precision RTL Synthesis")
+ (VERSION "64-bit 2015.2.16")
+ (DIVIDER /)
+ (PROCESS "8")
+ (TIMESCALE 1 ns)
+(CELL
+ (CELLTYPE "dffeas")
+ (INSTANCE reg_a_0)
+ (DELAY
+  (ABSOLUTE
+   (PORT d (::0.200) (::0.200))
+   (PORT clk (::0.000) (::0.000))
+   (IOPATH (posedge clk) q (::0.530) (::0.530))
+   (PORT ena (::0.630) (::0.630))
+   (PORT clrn (::0.000) (::0.000))
+   (PORT prn (::0.000) (::0.000))))
+ (TIMINGCHECK
+   (SETUP d (posedge clk) (0.269))
+   (HOLD d (posedge clk) (0.000)))
+
+ (TIMINGCHECK
+   (SETUP ena (posedge clk) (0.795))
+   (HOLD ena (posedge clk) (0.000)))
+)
+(CELL
+ (CELLTYPE "dffeas")
+ (INSTANCE reg_a_1)
+ (DELAY
+  (ABSOLUTE
+   (PORT d (::0.200) (::0.200))
+   (PORT clk (::0.000) (::0.000))
+   (IOPATH (posedge clk) q (::0.530) (::0.530))
+   (PORT ena (::0.630) (::0.630))
+   (PORT clrn (::0.000) (::0.000))
+   (PORT prn (::0.000) (::0.000))))
+ (TIMINGCHECK
+   (SETUP d (posedge clk) (0.269))
+   (HOLD d (posedge clk) (0.000)))
+
+ (TIMINGCHECK
+   (SETUP ena (posedge clk) (0.795))
+   (HOLD ena (posedge clk) (0.000)))
+)
+(CELL
+ (CELLTYPE "dffeas")
+ (INSTANCE reg_a_2)
+ (DELAY
+  (ABSOLUTE
+   (PORT d (::0.200) (::0.200))
+   (PORT clk (::0.000) (::0.000))
+   (IOPATH (posedge clk) q (::0.530) (::0.530))
+   (PORT ena (::0.630) (::0.630))
+   (PORT clrn (::0.000) (::0.000))
+   (PORT prn (::0.000) (::0.000))))
+ (TIMINGCHECK
+   (SETUP d (posedge clk) (0.269))
+   (HOLD d (posedge clk) (0.000)))
+
+ (TIMINGCHECK
+   (SETUP ena (posedge clk) (0.795))
+   (HOLD ena (posedge clk) (0.000)))
+)
+(CELL
+ (CELLTYPE "dffeas")
+ (INSTANCE reg_a_3)
+ (DELAY
+  (ABSOLUTE
+   (PORT d (::0.200) (::0.200))
+   (PORT clk (::0.000) (::0.000))
+   (IOPATH (posedge clk) q (::0.530) (::0.530))
+   (PORT ena (::0.630) (::0.630))
+   (PORT clrn (::0.000) (::0.000))
+   (PORT prn (::0.000) (::0.000))))
+ (TIMINGCHECK
+   (SETUP d (posedge clk) (0.269))
+   (HOLD d (posedge clk) (0.000)))
+
+ (TIMINGCHECK
+   (SETUP ena (posedge clk) (0.795))
+   (HOLD ena (posedge clk) (0.000)))
+)
+(CELL
+ (CELLTYPE "dffeas")
+ (INSTANCE reg_a_4)
+ (DELAY
+  (ABSOLUTE
+   (PORT d (::0.200) (::0.200))
+   (PORT clk (::0.000) (::0.000))
+   (IOPATH (posedge clk) q (::0.530) (::0.530))
+   (PORT ena (::0.630) (::0.630))
+   (PORT clrn (::0.000) (::0.000))
+   (PORT prn (::0.000) (::0.000))))
+ (TIMINGCHECK
+   (SETUP d (posedge clk) (0.269))
+   (HOLD d (posedge clk) (0.000)))
+
+ (TIMINGCHECK
+   (SETUP ena (posedge clk) (0.795))
+   (HOLD ena (posedge clk) (0.000)))
+)
+(CELL
+ (CELLTYPE "dffeas")
+ (INSTANCE reg_a_5)
+ (DELAY
+  (ABSOLUTE
+   (PORT d (::0.200) (::0.200))
+   (PORT clk (::0.000) (::0.000))
+   (IOPATH (posedge clk) q (::0.530) (::0.530))
+   (PORT ena (::0.630) (::0.630))
+   (PORT clrn (::0.000) (::0.000))
+   (PORT prn (::0.000) (::0.000))))
+ (TIMINGCHECK
+   (SETUP d (posedge clk) (0.269))
+   (HOLD d (posedge clk) (0.000)))
+
+ (TIMINGCHECK
+   (SETUP ena (posedge clk) (0.795))
+   (HOLD ena (posedge clk) (0.000)))
+)
+(CELL
+ (CELLTYPE "dffeas")
+ (INSTANCE reg_a_6)
+ (DELAY
+  (ABSOLUTE
+   (PORT d (::0.200) (::0.200))
+   (PORT clk (::0.000) (::0.000))
+   (IOPATH (posedge clk) q (::0.530) (::0.530))
+   (PORT ena (::0.630) (::0.630))
+   (PORT clrn (::0.000) (::0.000))
+   (PORT prn (::0.000) (::0.000))))
+ (TIMINGCHECK
+   (SETUP d (posedge clk) (0.269))
+   (HOLD d (posedge clk) (0.000)))
+
+ (TIMINGCHECK
+   (SETUP ena (posedge clk) (0.795))
+   (HOLD ena (posedge clk) (0.000)))
+)
+(CELL
+ (CELLTYPE "dffeas")
+ (INSTANCE reg_b_1)
+ (DELAY
+  (ABSOLUTE
+   (PORT d (::0.200) (::0.200))
+   (PORT clk (::0.000) (::0.000))
+   (IOPATH (posedge clk) q (::0.530) (::0.530))
+   (PORT ena (::0.630) (::0.630))
+   (PORT clrn (::0.000) (::0.000))
+   (PORT prn (::0.000) (::0.000))))
+ (TIMINGCHECK
+   (SETUP d (posedge clk) (0.269))
+   (HOLD d (posedge clk) (0.000)))
+
+ (TIMINGCHECK
+   (SETUP ena (posedge clk) (0.795))
+   (HOLD ena (posedge clk) (0.000)))
+)
+(CELL
+ (CELLTYPE "dffeas")
+ (INSTANCE reg_b_2)
+ (DELAY
+  (ABSOLUTE
+   (PORT d (::0.200) (::0.200))
+   (PORT clk (::0.000) (::0.000))
+   (IOPATH (posedge clk) q (::0.530) (::0.530))
+   (PORT ena (::0.630) (::0.630))
+   (PORT clrn (::0.000) (::0.000))
+   (PORT prn (::0.000) (::0.000))))
+ (TIMINGCHECK
+   (SETUP d (posedge clk) (0.269))
+   (HOLD d (posedge clk) (0.000)))
+
+ (TIMINGCHECK
+   (SETUP ena (posedge clk) (0.795))
+   (HOLD ena (posedge clk) (0.000)))
+)
+(CELL
+ (CELLTYPE "dffeas")
+ (INSTANCE reg_b_3)
+ (DELAY
+  (ABSOLUTE
+   (PORT d (::0.200) (::0.200))
+   (PORT clk (::0.000) (::0.000))
+   (IOPATH (posedge clk) q (::0.530) (::0.530))
+   (PORT ena (::0.630) (::0.630))
+   (PORT clrn (::0.000) (::0.000))
+   (PORT prn (::0.000) (::0.000))))
+ (TIMINGCHECK
+   (SETUP d (posedge clk) (0.269))
+   (HOLD d (posedge clk) (0.000)))
+
+ (TIMINGCHECK
+   (SETUP ena (posedge clk) (0.795))
+   (HOLD ena (posedge clk) (0.000)))
+)
+(CELL
+ (CELLTYPE "dffeas")
+ (INSTANCE reg_b_4)
+ (DELAY
+  (ABSOLUTE
+   (PORT d (::0.200) (::0.200))
+   (PORT clk (::0.000) (::0.000))
+   (IOPATH (posedge clk) q (::0.530) (::0.530))
+   (PORT ena (::0.630) (::0.630))
+   (PORT clrn (::0.000) (::0.000))
+   (PORT prn (::0.000) (::0.000))))
+ (TIMINGCHECK
+   (SETUP d (posedge clk) (0.269))
+   (HOLD d (posedge clk) (0.000)))
+
+ (TIMINGCHECK
+   (SETUP ena (posedge clk) (0.795))
+   (HOLD ena (posedge clk) (0.000)))
+)
+(CELL
+ (CELLTYPE "dffeas")
+ (INSTANCE reg_b_5)
+ (DELAY
+  (ABSOLUTE
+   (PORT d (::0.200) (::0.200))
+   (PORT clk (::0.000) (::0.000))
+   (IOPATH (posedge clk) q (::0.530) (::0.530))
+   (PORT ena (::0.630) (::0.630))
+   (PORT clrn (::0.000) (::0.000))
+   (PORT prn (::0.000) (::0.000))))
+ (TIMINGCHECK
+   (SETUP d (posedge clk) (0.269))
+   (HOLD d (posedge clk) (0.000)))
+
+ (TIMINGCHECK
+   (SETUP ena (posedge clk) (0.795))
+   (HOLD ena (posedge clk) (0.000)))
+)
+(CELL
+ (CELLTYPE "dffeas")
+ (INSTANCE reg_b_6)
+ (DELAY
+  (ABSOLUTE
+   (PORT d (::0.200) (::0.200))
+   (PORT clk (::0.000) (::0.000))
+   (IOPATH (posedge clk) q (::0.530) (::0.530))
+   (PORT ena (::0.630) (::0.630))
+   (PORT clrn (::0.000) (::0.000))
+   (PORT prn (::0.000) (::0.000))))
+ (TIMINGCHECK
+   (SETUP d (posedge clk) (0.269))
+   (HOLD d (posedge clk) (0.000)))
+
+ (TIMINGCHECK
+   (SETUP ena (posedge clk) (0.795))
+   (HOLD ena (posedge clk) (0.000)))
+)
+(CELL
+ (CELLTYPE "dffeas")
+ (INSTANCE reg_b_7)
+ (DELAY
+  (ABSOLUTE
+   (PORT d (::0.200) (::0.200))
+   (PORT clk (::0.000) (::0.000))
+   (IOPATH (posedge clk) q (::0.530) (::0.530))
+   (PORT ena (::0.630) (::0.630))
+   (PORT clrn (::0.000) (::0.000))
+   (PORT prn (::0.000) (::0.000))))
+ (TIMINGCHECK
+   (SETUP d (posedge clk) (0.269))
+   (HOLD d (posedge clk) (0.000)))
+
+ (TIMINGCHECK
+   (SETUP ena (posedge clk) (0.795))
+   (HOLD ena (posedge clk) (0.000)))
+)
+(CELL
+ (CELLTYPE "dffeas")
+ (INSTANCE reg_current_state_0)
+ (DELAY
+  (ABSOLUTE
+   (PORT d (::0.200) (::0.200))
+   (PORT clk (::0.000) (::0.000))
+   (IOPATH (posedge clk) q (::0.530) (::0.530))
+   (PORT clrn (::0.000) (::0.000))
+   (PORT prn (::0.000) (::0.000))))
+ (TIMINGCHECK
+   (SETUP d (posedge clk) (0.269))
+   (HOLD d (posedge clk) (0.000)))
+)
+(CELL
+ (CELLTYPE "dffeas")
+ (INSTANCE reg_current_state_1)
+ (DELAY
+  (ABSOLUTE
+   (PORT d (::0.200) (::0.200))
+   (PORT clk (::0.000) (::0.000))
+   (IOPATH (posedge clk) q (::0.530) (::0.530))
+   (PORT clrn (::0.000) (::0.000))
+   (PORT prn (::0.000) (::0.000))))
+ (TIMINGCHECK
+   (SETUP d (posedge clk) (0.269))
+   (HOLD d (posedge clk) (0.000)))
+)
+(CELL
+ (CELLTYPE "fiftyfivenm_lcell_comb")
+ (INSTANCE ix61882z7097)
+ (DELAY
+  (ABSOLUTE
+   (PORT datab (::0.230) (::0.230))
+   (IOPATH datab combout (::0.496) (::0.496))
+   (PORT datac (::0.230) (::0.230))
+   (IOPATH datac combout (::0.327) (::0.327))
+   (PORT datad (::0.750) (::0.750))
+   (IOPATH datad combout (::0.177) (::0.177)))))
+(CELL
+ (CELLTYPE "fiftyfivenm_lcell_comb")
+ (INSTANCE ix54046z7096)
+ (DELAY
+  (ABSOLUTE
+   (PORT dataa (::0.230) (::0.230))
+   (IOPATH dataa combout (::0.491) (::0.491))
+   (PORT datab (::0.230) (::0.230))
+   (IOPATH datab combout (::0.496) (::0.496))
+   (PORT datac (::0.230) (::0.230))
+   (IOPATH datac combout (::0.327) (::0.327))
+   (PORT datad (::0.230) (::0.230))
+   (IOPATH datad combout (::0.177) (::0.177)))))
+(CELL
+ (CELLTYPE "fiftyfivenm_lcell_comb")
+ (INSTANCE ix61882z7098)
+ (DELAY
+  (ABSOLUTE
+   (PORT dataa (::0.230) (::0.230))
+   (IOPATH dataa combout (::0.491) (::0.491))
+   (PORT datab (::0.230) (::0.230))
+   (IOPATH datab combout (::0.496) (::0.496))
+   (PORT datac (::0.230) (::0.230))
+   (IOPATH datac combout (::0.327) (::0.327))
+   (PORT datad (::0.230) (::0.230))
+   (IOPATH datad combout (::0.177) (::0.177)))))
+(CELL
+ (CELLTYPE "fiftyfivenm_lcell_comb")
+ (INSTANCE ix60567z7096)
+ (DELAY
+  (ABSOLUTE
+   (PORT datab (::0.750) (::0.750))
+   (IOPATH datab combout (::0.496) (::0.496))
+   (PORT datac (::0.260) (::0.260))
+   (IOPATH datac combout (::0.327) (::0.327))
+   (PORT datad (::0.000) (::0.000))
+   (IOPATH datad combout (::0.177) (::0.177)))))
+(CELL
+ (CELLTYPE "fiftyfivenm_lcell_comb")
+ (INSTANCE ix61882z7099)
+ (DELAY
+  (ABSOLUTE
+   (PORT datac (::0.260) (::0.260))
+   (IOPATH datac combout (::0.327) (::0.327))
+   (PORT datad (::0.000) (::0.000))
+   (IOPATH datad combout (::0.177) (::0.177)))))
+(CELL
+ (CELLTYPE "fiftyfivenm_lcell_comb")
+ (INSTANCE ix60567z7095)
+ (DELAY
+  (ABSOLUTE
+   (PORT dataa (::0.200) (::0.200))
+   (IOPATH dataa combout (::0.491) (::0.491))
+   (PORT datab (::0.750) (::0.750))
+   (IOPATH datab combout (::0.496) (::0.496))
+   (PORT datac (::0.200) (::0.200))
+   (IOPATH datac combout (::0.327) (::0.327))
+   (PORT datad (::0.000) (::0.000))
+   (IOPATH datad combout (::0.177) (::0.177)))))
+(CELL
+ (CELLTYPE "fiftyfivenm_lcell_comb")
+ (INSTANCE ix54046z7095)
+ (DELAY
+  (ABSOLUTE
+   (PORT dataa (::0.230) (::0.230))
+   (IOPATH dataa combout (::0.491) (::0.491))
+   (PORT datab (::0.230) (::0.230))
+   (IOPATH datab combout (::0.496) (::0.496))
+   (PORT datac (::0.260) (::0.260))
+   (IOPATH datac combout (::0.327) (::0.327))
+   (PORT datad (::0.750) (::0.750))
+   (IOPATH datad combout (::0.177) (::0.177)))))
+(CELL
+ (CELLTYPE "fiftyfivenm_lcell_comb")
+ (INSTANCE ix55043z7095)
+ (DELAY
+  (ABSOLUTE
+   (PORT dataa (::0.750) (::0.750))
+   (IOPATH dataa combout (::0.491) (::0.491))
+   (PORT datab (::0.260) (::0.260))
+   (IOPATH datab combout (::0.496) (::0.496))
+   (PORT datac (::0.000) (::0.000))
+   (IOPATH datac combout (::0.327) (::0.327))
+   (PORT datad (::0.000) (::0.000))
+   (IOPATH datad combout (::0.177) (::0.177)))))
+(CELL
+ (CELLTYPE "fiftyfivenm_lcell_comb")
+ (INSTANCE ix19052z7095)
+ (DELAY
+  (ABSOLUTE
+   (PORT datac (::0.750) (::0.750))
+   (IOPATH datac combout (::0.327) (::0.327))
+   (PORT datad (::0.000) (::0.000))
+   (IOPATH datad combout (::0.177) (::0.177)))))
+(CELL
+ (CELLTYPE "fiftyfivenm_lcell_comb")
+ (INSTANCE ix61882z7095)
+ (DELAY
+  (ABSOLUTE
+   (PORT datac (::0.750) (::0.750))
+   (IOPATH datac combout (::0.327) (::0.327))
+   (PORT datad (::0.000) (::0.000))
+   (IOPATH datad combout (::0.177) (::0.177)))))
+(CELL
+ (CELLTYPE "fiftyfivenm_lcell_comb")
+ (INSTANCE ix47018z7095)
+ (DELAY
+  (ABSOLUTE
+   (PORT dataa (::0.260) (::0.260))
+   (IOPATH dataa combout (::0.491) (::0.491))
+   (PORT datab (::0.230) (::0.230))
+   (IOPATH datab combout (::0.496) (::0.496))
+   (PORT datac (::0.750) (::0.750))
+   (IOPATH datac combout (::0.327) (::0.327))
+   (PORT datad (::0.000) (::0.000))
+   (IOPATH datad combout (::0.177) (::0.177)))))
+(CELL
+ (CELLTYPE "fiftyfivenm_lcell_comb")
+ (INSTANCE ix61882z7096)
+ (DELAY
+  (ABSOLUTE
+   (PORT dataa (::0.200) (::0.200))
+   (IOPATH dataa combout (::0.491) (::0.491))
+   (PORT datab (::0.260) (::0.260))
+   (IOPATH datab combout (::0.496) (::0.496))
+   (PORT datac (::0.750) (::0.750))
+   (IOPATH datac combout (::0.327) (::0.327))
+   (PORT datad (::0.000) (::0.000))
+   (IOPATH datad combout (::0.177) (::0.177)))))
+(CELL
+ (CELLTYPE "fiftyfivenm_lcell_comb")
+ (INSTANCE ix18055z7095)
+ (DELAY
+  (ABSOLUTE
+   (PORT datab (::0.230) (::0.230))
+   (IOPATH datab combout (::0.496) (::0.496))
+   (PORT datac (::0.750) (::0.750))
+   (IOPATH datac combout (::0.327) (::0.327))
+   (PORT datad (::0.000) (::0.000))
+   (IOPATH datad combout (::0.177) (::0.177)))))
+(CELL
+ (CELLTYPE "fiftyfivenm_lcell_comb")
+ (INSTANCE ix17058z7095)
+ (DELAY
+  (ABSOLUTE
+   (PORT datab (::0.230) (::0.230))
+   (IOPATH datab combout (::0.496) (::0.496))
+   (PORT datac (::0.750) (::0.750))
+   (IOPATH datac combout (::0.327) (::0.327))
+   (PORT datad (::0.000) (::0.000))
+   (IOPATH datad combout (::0.177) (::0.177)))))
+(CELL
+ (CELLTYPE "fiftyfivenm_lcell_comb")
+ (INSTANCE ix16061z7095)
+ (DELAY
+  (ABSOLUTE
+   (PORT datab (::0.230) (::0.230))
+   (IOPATH datab combout (::0.496) (::0.496))
+   (PORT datac (::0.750) (::0.750))
+   (IOPATH datac combout (::0.327) (::0.327))
+   (PORT datad (::0.000) (::0.000))
+   (IOPATH datad combout (::0.177) (::0.177)))))
+(CELL
+ (CELLTYPE "fiftyfivenm_lcell_comb")
+ (INSTANCE ix15064z7095)
+ (DELAY
+  (ABSOLUTE
+   (PORT datab (::0.230) (::0.230))
+   (IOPATH datab combout (::0.496) (::0.496))
+   (PORT datac (::0.750) (::0.750))
+   (IOPATH datac combout (::0.327) (::0.327))
+   (PORT datad (::0.000) (::0.000))
+   (IOPATH datad combout (::0.177) (::0.177)))))
+(CELL
+ (CELLTYPE "fiftyfivenm_lcell_comb")
+ (INSTANCE ix14067z7095)
+ (DELAY
+  (ABSOLUTE
+   (PORT datab (::0.230) (::0.230))
+   (IOPATH datab combout (::0.496) (::0.496))
+   (PORT datac (::0.750) (::0.750))
+   (IOPATH datac combout (::0.327) (::0.327))
+   (PORT datad (::0.000) (::0.000))
+   (IOPATH datad combout (::0.177) (::0.177)))))
+(CELL
+ (CELLTYPE "fiftyfivenm_lcell_comb")
+ (INSTANCE ix13070z7095)
+ (DELAY
+  (ABSOLUTE
+   (PORT datab (::0.230) (::0.230))
+   (IOPATH datab combout (::0.496) (::0.496))
+   (PORT datac (::0.750) (::0.750))
+   (IOPATH datac combout (::0.327) (::0.327))
+   (PORT datad (::0.000) (::0.000))
+   (IOPATH datad combout (::0.177) (::0.177)))))
+(CELL
+ (CELLTYPE "fiftyfivenm_lcell_comb")
+ (INSTANCE ix12073z7095)
+ (DELAY
+  (ABSOLUTE
+   (PORT datab (::0.230) (::0.230))
+   (IOPATH datab combout (::0.496) (::0.496))
+   (PORT datac (::0.750) (::0.750))
+   (IOPATH datac combout (::0.327) (::0.327))
+   (PORT datad (::0.000) (::0.000))
+   (IOPATH datad combout (::0.177) (::0.177)))))
+(CELL
+ (CELLTYPE "fiftyfivenm_lcell_comb")
+ (INSTANCE ix54903z7095)
+ (DELAY
+  (ABSOLUTE
+   (PORT datab (::0.230) (::0.230))
+   (IOPATH datab combout (::0.496) (::0.496))
+   (PORT datac (::0.750) (::0.750))
+   (IOPATH datac combout (::0.327) (::0.327))
+   (PORT datad (::0.000) (::0.000))
+   (IOPATH datad combout (::0.177) (::0.177)))))
+(CELL
+ (CELLTYPE "fiftyfivenm_lcell_comb")
+ (INSTANCE ix55900z7095)
+ (DELAY
+  (ABSOLUTE
+   (PORT datab (::0.230) (::0.230))
+   (IOPATH datab combout (::0.496) (::0.496))
+   (PORT datac (::0.750) (::0.750))
+   (IOPATH datac combout (::0.327) (::0.327))
+   (PORT datad (::0.000) (::0.000))
+   (IOPATH datad combout (::0.177) (::0.177)))))
+(CELL
+ (CELLTYPE "fiftyfivenm_lcell_comb")
+ (INSTANCE ix56897z7095)
+ (DELAY
+  (ABSOLUTE
+   (PORT datab (::0.230) (::0.230))
+   (IOPATH datab combout (::0.496) (::0.496))
+   (PORT datac (::0.750) (::0.750))
+   (IOPATH datac combout (::0.327) (::0.327))
+   (PORT datad (::0.000) (::0.000))
+   (IOPATH datad combout (::0.177) (::0.177)))))
+(CELL
+ (CELLTYPE "fiftyfivenm_lcell_comb")
+ (INSTANCE ix57894z7095)
+ (DELAY
+  (ABSOLUTE
+   (PORT datab (::0.230) (::0.230))
+   (IOPATH datab combout (::0.496) (::0.496))
+   (PORT datac (::0.750) (::0.750))
+   (IOPATH datac combout (::0.327) (::0.327))
+   (PORT datad (::0.000) (::0.000))
+   (IOPATH datad combout (::0.177) (::0.177)))))
+(CELL
+ (CELLTYPE "fiftyfivenm_lcell_comb")
+ (INSTANCE ix58891z7095)
+ (DELAY
+  (ABSOLUTE
+   (PORT datab (::0.230) (::0.230))
+   (IOPATH datab combout (::0.496) (::0.496))
+   (PORT datac (::0.750) (::0.750))
+   (IOPATH datac combout (::0.327) (::0.327))
+   (PORT datad (::0.000) (::0.000))
+   (IOPATH datad combout (::0.177) (::0.177)))))
+(CELL
+ (CELLTYPE "fiftyfivenm_lcell_comb")
+ (INSTANCE ix59888z7095)
+ (DELAY
+  (ABSOLUTE
+   (PORT datab (::0.230) (::0.230))
+   (IOPATH datab combout (::0.496) (::0.496))
+   (PORT datac (::0.750) (::0.750))
+   (IOPATH datac combout (::0.327) (::0.327))
+   (PORT datad (::0.000) (::0.000))
+   (IOPATH datad combout (::0.177) (::0.177)))))
+(CELL
+ (CELLTYPE "fiftyfivenm_lcell_comb")
+ (INSTANCE ix60885z7095)
+ (DELAY
+  (ABSOLUTE
+   (PORT datab (::0.230) (::0.230))
+   (IOPATH datab combout (::0.496) (::0.496))
+   (PORT datac (::0.750) (::0.750))
+   (IOPATH datac combout (::0.327) (::0.327))
+   (PORT datad (::0.000) (::0.000))
+   (IOPATH datad combout (::0.177) (::0.177)))))
+(CELL
+ (CELLTYPE "dffeas")
+ (INSTANCE reg_a_7)
+ (DELAY
+  (ABSOLUTE
+   (PORT d (::0.200) (::0.200))
+   (PORT clk (::0.000) (::0.000))
+   (IOPATH (posedge clk) q (::0.530) (::0.530))
+   (PORT ena (::0.630) (::0.630))
+   (PORT clrn (::0.000) (::0.000))
+   (PORT prn (::0.000) (::0.000))
+   (PORT asdata (::0.000) (::0.000))))
+ (TIMINGCHECK
+   (SETUP d (posedge clk) (0.269))
+   (HOLD d (posedge clk) (0.000)))
+
+ (TIMINGCHECK
+   (SETUP ena (posedge clk) (0.795))
+   (HOLD ena (posedge clk) (0.000)))
+
+ (TIMINGCHECK
+   (SETUP asdata (posedge clk) (0.795))
+   (HOLD asdata (posedge clk) (0.000)))
+)
+(CELL
+ (CELLTYPE "dffeas")
+ (INSTANCE reg_b_0)
+ (DELAY
+  (ABSOLUTE
+   (PORT d (::0.200) (::0.200))
+   (PORT clk (::0.000) (::0.000))
+   (IOPATH (posedge clk) q (::0.530) (::0.530))
+   (PORT ena (::0.630) (::0.630))
+   (PORT clrn (::0.000) (::0.000))
+   (PORT prn (::0.000) (::0.000))
+   (PORT asdata (::0.000) (::0.000))))
+ (TIMINGCHECK
+   (SETUP d (posedge clk) (0.269))
+   (HOLD d (posedge clk) (0.000)))
+
+ (TIMINGCHECK
+   (SETUP ena (posedge clk) (0.795))
+   (HOLD ena (posedge clk) (0.000)))
+
+ (TIMINGCHECK
+   (SETUP asdata (posedge clk) (0.795))
+   (HOLD asdata (posedge clk) (0.000)))
+)
+(CELL
+ (CELLTYPE "dffeas")
+ (INSTANCE reg_next_state_0)
+ (DELAY
+  (ABSOLUTE
+   (PORT d (::0.200) (::0.200))
+   (PORT clk (::0.000) (::0.000))
+   (IOPATH (posedge clk) q (::0.530) (::0.530))
+   (PORT ena (::0.000) (::0.000))
+   (PORT clrn (::0.000) (::0.000))
+   (PORT prn (::0.000) (::0.000))
+   (PORT aload (::0.000) (::0.000))
+   (PORT asdata (::0.000) (::0.000))
+   (PORT sclr (::0.000) (::0.000))
+   (PORT sload (::0.000) (::0.000))))
+ (TIMINGCHECK
+   (SETUP d (posedge clk) (0.269))
+   (HOLD d (posedge clk) (0.000)))
+
+ (TIMINGCHECK
+   (SETUP ena (posedge clk) (0.795))
+   (HOLD ena (posedge clk) (0.000)))
+
+ (TIMINGCHECK
+   (SETUP asdata (posedge clk) (0.795))
+   (HOLD asdata (posedge clk) (0.000)))
+
+ (TIMINGCHECK
+   (SETUP sclr (posedge clk) (0.795))
+   (HOLD sclr (posedge clk) (0.000)))
+
+ (TIMINGCHECK
+   (SETUP sload (posedge clk) (0.809))
+   (HOLD sload (posedge clk) (0.000)))
+)
+(CELL
+ (CELLTYPE "dffeas")
+ (INSTANCE reg_next_state_1)
+ (DELAY
+  (ABSOLUTE
+   (PORT d (::0.200) (::0.200))
+   (PORT clk (::0.000) (::0.000))
+   (IOPATH (posedge clk) q (::0.530) (::0.530))
+   (PORT ena (::0.000) (::0.000))
+   (PORT clrn (::0.000) (::0.000))
+   (PORT prn (::0.000) (::0.000))
+   (PORT aload (::0.000) (::0.000))
+   (PORT asdata (::0.000) (::0.000))
+   (PORT sclr (::0.000) (::0.000))
+   (PORT sload (::0.000) (::0.000))))
+ (TIMINGCHECK
+   (SETUP d (posedge clk) (0.269))
+   (HOLD d (posedge clk) (0.000)))
+
+ (TIMINGCHECK
+   (SETUP ena (posedge clk) (0.795))
+   (HOLD ena (posedge clk) (0.000)))
+
+ (TIMINGCHECK
+   (SETUP asdata (posedge clk) (0.795))
+   (HOLD asdata (posedge clk) (0.000)))
+
+ (TIMINGCHECK
+   (SETUP sclr (posedge clk) (0.795))
+   (HOLD sclr (posedge clk) (0.000)))
+
+ (TIMINGCHECK
+   (SETUP sload (posedge clk) (0.809))
+   (HOLD sload (posedge clk) (0.000)))
+)
+(CELL
+ (CELLTYPE "dffeas")
+ (INSTANCE reg_o_valid)
+ (DELAY
+  (ABSOLUTE
+   (PORT d (::0.200) (::0.200))
+   (PORT clk (::0.000) (::0.000))
+   (IOPATH (posedge clk) q (::0.530) (::0.530))
+   (PORT ena (::0.000) (::0.000))
+   (PORT clrn (::0.000) (::0.000))
+   (PORT prn (::0.000) (::0.000))
+   (PORT asdata (::0.000) (::0.000))))
+ (TIMINGCHECK
+   (SETUP d (posedge clk) (0.269))
+   (HOLD d (posedge clk) (0.000)))
+
+ (TIMINGCHECK
+   (SETUP ena (posedge clk) (0.795))
+   (HOLD ena (posedge clk) (0.000)))
+
+ (TIMINGCHECK
+   (SETUP asdata (posedge clk) (0.795))
+   (HOLD asdata (posedge clk) (0.000)))
+)
+(CELL
+ (CELLTYPE "dffeas")
+ (INSTANCE reg_z_0)
+ (DELAY
+  (ABSOLUTE
+   (PORT d (::0.200) (::0.200))
+   (PORT clk (::0.000) (::0.000))
+   (IOPATH (posedge clk) q (::0.530) (::0.530))
+   (PORT ena (::0.400) (::0.400))
+   (PORT clrn (::0.000) (::0.000))
+   (PORT prn (::0.000) (::0.000))
+   (PORT asdata (::0.000) (::0.000))
+   (PORT sclr (::0.000) (::0.000))
+   (PORT sload (::0.000) (::0.000))))
+ (TIMINGCHECK
+   (SETUP d (posedge clk) (0.269))
+   (HOLD d (posedge clk) (0.000)))
+
+ (TIMINGCHECK
+   (SETUP ena (posedge clk) (0.795))
+   (HOLD ena (posedge clk) (0.000)))
+
+ (TIMINGCHECK
+   (SETUP asdata (posedge clk) (0.795))
+   (HOLD asdata (posedge clk) (0.000)))
+
+ (TIMINGCHECK
+   (SETUP sclr (posedge clk) (0.795))
+   (HOLD sclr (posedge clk) (0.000)))
+
+ (TIMINGCHECK
+   (SETUP sload (posedge clk) (0.809))
+   (HOLD sload (posedge clk) (0.000)))
+)
+(CELL
+ (CELLTYPE "dffeas")
+ (INSTANCE reg_z_1)
+ (DELAY
+  (ABSOLUTE
+   (PORT d (::0.200) (::0.200))
+   (PORT clk (::0.000) (::0.000))
+   (IOPATH (posedge clk) q (::0.530) (::0.530))
+   (PORT ena (::0.400) (::0.400))
+   (PORT clrn (::0.000) (::0.000))
+   (PORT prn (::0.000) (::0.000))
+   (PORT asdata (::0.000) (::0.000))
+   (PORT sclr (::0.000) (::0.000))
+   (PORT sload (::0.000) (::0.000))))
+ (TIMINGCHECK
+   (SETUP d (posedge clk) (0.269))
+   (HOLD d (posedge clk) (0.000)))
+
+ (TIMINGCHECK
+   (SETUP ena (posedge clk) (0.795))
+   (HOLD ena (posedge clk) (0.000)))
+
+ (TIMINGCHECK
+   (SETUP asdata (posedge clk) (0.795))
+   (HOLD asdata (posedge clk) (0.000)))
+
+ (TIMINGCHECK
+   (SETUP sclr (posedge clk) (0.795))
+   (HOLD sclr (posedge clk) (0.000)))
+
+ (TIMINGCHECK
+   (SETUP sload (posedge clk) (0.809))
+   (HOLD sload (posedge clk) (0.000)))
+)
+(CELL
+ (CELLTYPE "dffeas")
+ (INSTANCE reg_z_2)
+ (DELAY
+  (ABSOLUTE
+   (PORT d (::0.200) (::0.200))
+   (PORT clk (::0.000) (::0.000))
+   (IOPATH (posedge clk) q (::0.530) (::0.530))
+   (PORT ena (::0.400) (::0.400))
+   (PORT clrn (::0.000) (::0.000))
+   (PORT prn (::0.000) (::0.000))
+   (PORT asdata (::0.000) (::0.000))
+   (PORT sclr (::0.000) (::0.000))
+   (PORT sload (::0.000) (::0.000))))
+ (TIMINGCHECK
+   (SETUP d (posedge clk) (0.269))
+   (HOLD d (posedge clk) (0.000)))
+
+ (TIMINGCHECK
+   (SETUP ena (posedge clk) (0.795))
+   (HOLD ena (posedge clk) (0.000)))
+
+ (TIMINGCHECK
+   (SETUP asdata (posedge clk) (0.795))
+   (HOLD asdata (posedge clk) (0.000)))
+
+ (TIMINGCHECK
+   (SETUP sclr (posedge clk) (0.795))
+   (HOLD sclr (posedge clk) (0.000)))
+
+ (TIMINGCHECK
+   (SETUP sload (posedge clk) (0.809))
+   (HOLD sload (posedge clk) (0.000)))
+)
+(CELL
+ (CELLTYPE "dffeas")
+ (INSTANCE reg_z_3)
+ (DELAY
+  (ABSOLUTE
+   (PORT d (::0.200) (::0.200))
+   (PORT clk (::0.000) (::0.000))
+   (IOPATH (posedge clk) q (::0.530) (::0.530))
+   (PORT ena (::0.400) (::0.400))
+   (PORT clrn (::0.000) (::0.000))
+   (PORT prn (::0.000) (::0.000))
+   (PORT asdata (::0.000) (::0.000))
+   (PORT sclr (::0.000) (::0.000))
+   (PORT sload (::0.000) (::0.000))))
+ (TIMINGCHECK
+   (SETUP d (posedge clk) (0.269))
+   (HOLD d (posedge clk) (0.000)))
+
+ (TIMINGCHECK
+   (SETUP ena (posedge clk) (0.795))
+   (HOLD ena (posedge clk) (0.000)))
+
+ (TIMINGCHECK
+   (SETUP asdata (posedge clk) (0.795))
+   (HOLD asdata (posedge clk) (0.000)))
+
+ (TIMINGCHECK
+   (SETUP sclr (posedge clk) (0.795))
+   (HOLD sclr (posedge clk) (0.000)))
+
+ (TIMINGCHECK
+   (SETUP sload (posedge clk) (0.809))
+   (HOLD sload (posedge clk) (0.000)))
+)
+(CELL
+ (CELLTYPE "dffeas")
+ (INSTANCE reg_z_4)
+ (DELAY
+  (ABSOLUTE
+   (PORT d (::0.200) (::0.200))
+   (PORT clk (::0.000) (::0.000))
+   (IOPATH (posedge clk) q (::0.530) (::0.530))
+   (PORT ena (::0.400) (::0.400))
+   (PORT clrn (::0.000) (::0.000))
+   (PORT prn (::0.000) (::0.000))
+   (PORT asdata (::0.000) (::0.000))
+   (PORT sclr (::0.000) (::0.000))
+   (PORT sload (::0.000) (::0.000))))
+ (TIMINGCHECK
+   (SETUP d (posedge clk) (0.269))
+   (HOLD d (posedge clk) (0.000)))
+
+ (TIMINGCHECK
+   (SETUP ena (posedge clk) (0.795))
+   (HOLD ena (posedge clk) (0.000)))
+
+ (TIMINGCHECK
+   (SETUP asdata (posedge clk) (0.795))
+   (HOLD asdata (posedge clk) (0.000)))
+
+ (TIMINGCHECK
+   (SETUP sclr (posedge clk) (0.795))
+   (HOLD sclr (posedge clk) (0.000)))
+
+ (TIMINGCHECK
+   (SETUP sload (posedge clk) (0.809))
+   (HOLD sload (posedge clk) (0.000)))
+)
+(CELL
+ (CELLTYPE "dffeas")
+ (INSTANCE reg_z_5)
+ (DELAY
+  (ABSOLUTE
+   (PORT d (::0.200) (::0.200))
+   (PORT clk (::0.000) (::0.000))
+   (IOPATH (posedge clk) q (::0.530) (::0.530))
+   (PORT ena (::0.400) (::0.400))
+   (PORT clrn (::0.000) (::0.000))
+   (PORT prn (::0.000) (::0.000))
+   (PORT asdata (::0.000) (::0.000))
+   (PORT sclr (::0.000) (::0.000))
+   (PORT sload (::0.000) (::0.000))))
+ (TIMINGCHECK
+   (SETUP d (posedge clk) (0.269))
+   (HOLD d (posedge clk) (0.000)))
+
+ (TIMINGCHECK
+   (SETUP ena (posedge clk) (0.795))
+   (HOLD ena (posedge clk) (0.000)))
+
+ (TIMINGCHECK
+   (SETUP asdata (posedge clk) (0.795))
+   (HOLD asdata (posedge clk) (0.000)))
+
+ (TIMINGCHECK
+   (SETUP sclr (posedge clk) (0.795))
+   (HOLD sclr (posedge clk) (0.000)))
+
+ (TIMINGCHECK
+   (SETUP sload (posedge clk) (0.809))
+   (HOLD sload (posedge clk) (0.000)))
+)
+(CELL
+ (CELLTYPE "dffeas")
+ (INSTANCE reg_z_6)
+ (DELAY
+  (ABSOLUTE
+   (PORT d (::0.200) (::0.200))
+   (PORT clk (::0.000) (::0.000))
+   (IOPATH (posedge clk) q (::0.530) (::0.530))
+   (PORT ena (::0.400) (::0.400))
+   (PORT clrn (::0.000) (::0.000))
+   (PORT prn (::0.000) (::0.000))
+   (PORT asdata (::0.000) (::0.000))
+   (PORT sclr (::0.000) (::0.000))
+   (PORT sload (::0.000) (::0.000))))
+ (TIMINGCHECK
+   (SETUP d (posedge clk) (0.269))
+   (HOLD d (posedge clk) (0.000)))
+
+ (TIMINGCHECK
+   (SETUP ena (posedge clk) (0.795))
+   (HOLD ena (posedge clk) (0.000)))
+
+ (TIMINGCHECK
+   (SETUP asdata (posedge clk) (0.795))
+   (HOLD asdata (posedge clk) (0.000)))
+
+ (TIMINGCHECK
+   (SETUP sclr (posedge clk) (0.795))
+   (HOLD sclr (posedge clk) (0.000)))
+
+ (TIMINGCHECK
+   (SETUP sload (posedge clk) (0.809))
+   (HOLD sload (posedge clk) (0.000)))
+)
+(CELL
+ (CELLTYPE "dffeas")
+ (INSTANCE reg_z_7)
+ (DELAY
+  (ABSOLUTE
+   (PORT d (::0.200) (::0.200))
+   (PORT clk (::0.000) (::0.000))
+   (IOPATH (posedge clk) q (::0.530) (::0.530))
+   (PORT ena (::0.400) (::0.400))
+   (PORT clrn (::0.000) (::0.000))
+   (PORT prn (::0.000) (::0.000))
+   (PORT asdata (::0.000) (::0.000))
+   (PORT sclr (::0.000) (::0.000))
+   (PORT sload (::0.000) (::0.000))))
+ (TIMINGCHECK
+   (SETUP d (posedge clk) (0.269))
+   (HOLD d (posedge clk) (0.000)))
+
+ (TIMINGCHECK
+   (SETUP ena (posedge clk) (0.795))
+   (HOLD ena (posedge clk) (0.000)))
+
+ (TIMINGCHECK
+   (SETUP asdata (posedge clk) (0.795))
+   (HOLD asdata (posedge clk) (0.000)))
+
+ (TIMINGCHECK
+   (SETUP sclr (posedge clk) (0.795))
+   (HOLD sclr (posedge clk) (0.000)))
+
+ (TIMINGCHECK
+   (SETUP sload (posedge clk) (0.809))
+   (HOLD sload (posedge clk) (0.000)))
+)
+(CELL
+ (CELLTYPE "fiftyfivenm_lcell_comb")
+ (INSTANCE z_add8_0i1_ix62_fadd)
+ (DELAY
+  (ABSOLUTE
+   (PORT dataa (::0.200) (::0.200))
+   (IOPATH dataa combout (::0.491) (::0.491))
+   (PORT datab (::0.200) (::0.200))
+   (IOPATH datab combout (::0.496) (::0.496))
+   (PORT datad (::0.000) (::0.000))
+   (IOPATH datad combout (::0.000) (::0.000))
+   (PORT cin (::0.000) (::0.000))
+   (IOPATH cin combout (::0.607) (::0.607)))))
+(CELL
+ (CELLTYPE "fiftyfivenm_lcell_comb")
+ (INSTANCE z_add8_0i1_ix60_fadd)
+ (DELAY
+  (ABSOLUTE
+   (PORT dataa (::0.200) (::0.200))
+   (IOPATH dataa combout (::0.491) (::0.491))
+   (IOPATH dataa cout (::0.552) (::0.552))
+   (PORT datab (::0.230) (::0.230))
+   (IOPATH datab combout (::0.496) (::0.496))
+   (IOPATH datab cout (::0.565) (::0.565))
+   (PORT datad (::0.000) (::0.000))
+   (IOPATH datad combout (::0.000) (::0.000))
+   (IOPATH datad cout (::0.000) (::0.000))
+   (PORT cin (::0.000) (::0.000))
+   (IOPATH cin combout (::0.607) (::0.607))
+   (IOPATH cin cout (::0.079) (::0.079)))))
+(CELL
+ (CELLTYPE "fiftyfivenm_lcell_comb")
+ (INSTANCE z_add8_0i1_ix56_fadd)
+ (DELAY
+  (ABSOLUTE
+   (PORT dataa (::0.200) (::0.200))
+   (IOPATH dataa combout (::0.491) (::0.491))
+   (IOPATH dataa cout (::0.552) (::0.552))
+   (PORT datab (::0.230) (::0.230))
+   (IOPATH datab combout (::0.496) (::0.496))
+   (IOPATH datab cout (::0.565) (::0.565))
+   (PORT datad (::0.000) (::0.000))
+   (IOPATH datad combout (::0.000) (::0.000))
+   (IOPATH datad cout (::0.000) (::0.000))
+   (PORT cin (::0.000) (::0.000))
+   (IOPATH cin combout (::0.607) (::0.607))
+   (IOPATH cin cout (::0.079) (::0.079)))))
+(CELL
+ (CELLTYPE "fiftyfivenm_lcell_comb")
+ (INSTANCE z_add8_0i1_ix52_fadd)
+ (DELAY
+  (ABSOLUTE
+   (PORT dataa (::0.200) (::0.200))
+   (IOPATH dataa combout (::0.491) (::0.491))
+   (IOPATH dataa cout (::0.552) (::0.552))
+   (PORT datab (::0.230) (::0.230))
+   (IOPATH datab combout (::0.496) (::0.496))
+   (IOPATH datab cout (::0.565) (::0.565))
+   (PORT datad (::0.000) (::0.000))
+   (IOPATH datad combout (::0.000) (::0.000))
+   (IOPATH datad cout (::0.000) (::0.000))
+   (PORT cin (::0.000) (::0.000))
+   (IOPATH cin combout (::0.607) (::0.607))
+   (IOPATH cin cout (::0.079) (::0.079)))))
+(CELL
+ (CELLTYPE "fiftyfivenm_lcell_comb")
+ (INSTANCE z_add8_0i1_ix48_fadd)
+ (DELAY
+  (ABSOLUTE
+   (PORT dataa (::0.200) (::0.200))
+   (IOPATH dataa combout (::0.491) (::0.491))
+   (IOPATH dataa cout (::0.552) (::0.552))
+   (PORT datab (::0.230) (::0.230))
+   (IOPATH datab combout (::0.496) (::0.496))
+   (IOPATH datab cout (::0.565) (::0.565))
+   (PORT datad (::0.000) (::0.000))
+   (IOPATH datad combout (::0.000) (::0.000))
+   (IOPATH datad cout (::0.000) (::0.000))
+   (PORT cin (::0.000) (::0.000))
+   (IOPATH cin combout (::0.607) (::0.607))
+   (IOPATH cin cout (::0.079) (::0.079)))))
+(CELL
+ (CELLTYPE "fiftyfivenm_lcell_comb")
+ (INSTANCE z_add8_0i1_ix44_fadd)
+ (DELAY
+  (ABSOLUTE
+   (PORT dataa (::0.200) (::0.200))
+   (IOPATH dataa combout (::0.491) (::0.491))
+   (IOPATH dataa cout (::0.552) (::0.552))
+   (PORT datab (::0.230) (::0.230))
+   (IOPATH datab combout (::0.496) (::0.496))
+   (IOPATH datab cout (::0.565) (::0.565))
+   (PORT datad (::0.000) (::0.000))
+   (IOPATH datad combout (::0.000) (::0.000))
+   (IOPATH datad cout (::0.000) (::0.000))
+   (PORT cin (::0.000) (::0.000))
+   (IOPATH cin combout (::0.607) (::0.607))
+   (IOPATH cin cout (::0.079) (::0.079)))))
+(CELL
+ (CELLTYPE "fiftyfivenm_lcell_comb")
+ (INSTANCE z_add8_0i1_ix40_fadd)
+ (DELAY
+  (ABSOLUTE
+   (PORT dataa (::0.200) (::0.200))
+   (IOPATH dataa combout (::0.491) (::0.491))
+   (IOPATH dataa cout (::0.552) (::0.552))
+   (PORT datab (::0.230) (::0.230))
+   (IOPATH datab combout (::0.496) (::0.496))
+   (IOPATH datab cout (::0.565) (::0.565))
+   (PORT datad (::0.000) (::0.000))
+   (IOPATH datad combout (::0.000) (::0.000))
+   (IOPATH datad cout (::0.000) (::0.000))
+   (PORT cin (::0.000) (::0.000))
+   (IOPATH cin combout (::0.607) (::0.607))
+   (IOPATH cin cout (::0.079) (::0.079)))))
+(CELL
+ (CELLTYPE "fiftyfivenm_lcell_comb")
+ (INSTANCE z_add8_0i1_ix36_fadd)
+ (DELAY
+  (ABSOLUTE
+   (PORT dataa (::0.200) (::0.200))
+   (IOPATH dataa combout (::0.491) (::0.491))
+   (IOPATH dataa cout (::0.552) (::0.552))
+   (PORT datab (::0.230) (::0.230))
+   (IOPATH datab combout (::0.496) (::0.496))
+   (IOPATH datab cout (::0.565) (::0.565))
+   (PORT datad (::0.000) (::0.000))
+   (IOPATH datad combout (::0.000) (::0.000))
+   (IOPATH datad cout (::0.000) (::0.000)))))
+(CELL
+ (CELLTYPE "GND")
+ (INSTANCE GND_rename35)
+)
+(CELL
+ (CELLTYPE "VCC")
+ (INSTANCE PWR_rename34)
+)
+)

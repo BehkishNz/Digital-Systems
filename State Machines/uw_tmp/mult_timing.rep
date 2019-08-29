@@ -1,0 +1,97 @@
+//  Precision RTL Synthesis 64-bit 2015.2.16 (PS2015.2.1 Production Release) Tue Jan  5 23:04:49 PST 2016
+//  
+//  Copyright (c) Mentor Graphics Corporation, 1996-2016, All Rights Reserved.
+//             Portions copyright 1991-2008 Compuware Corporation
+//                       UNPUBLISHED, LICENSED SOFTWARE.
+//            CONFIDENTIAL AND PROPRIETARY INFORMATION WHICH IS THE
+//          PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+//  
+//  Running on Linux bnassirz@ecelinux2.uwaterloo.ca #1 SMP Wed Apr 12 15:04:24 UTC 2017 3.10.0-514.16.1.el7.x86_64 x86_64
+//  
+//  Start time Thu Jun  1 19:50:35 2017
+
+-- Device: Altera - MAX 10 : 10M08SAE144C8GES : 8
+-- CTE report summary..
+-- POST-SYNTHESIS TIMING REPORTS ARE ESTIMATES AND SHOULD NOT BE RELIED ON TO MAKE QoR DECISIONS. For accurate timing information, please run place-and-route (P&R) and review P&R generated timing reports.
+
+================================================================================================
+                   Clock Frequency Report
+
+	Domain                  Clock Name                            Min Period (Freq)             Required Period (Freq)
+	------                  ----------                            -----------------             ----------------------
+	xmplr_ClockDomain_clk   clk                                   4.098 (244.021 MHz)           20.000 (50.000 MHz)
+
+
+================================================================================================
+Setup Timing Analysis of clk
+
+Setup Slack Path Summary
+
+               Data                                                          Data
+       Setup   Path   Source  Dest.                                          End 
+Index  Slack   Delay  Clock   Clock       Data Start Pin       Data End Pin  Edge
+-----  ------  -----  ------  -----  ------------------------  ------------  ----
+  1    15.902  3.303  clk     clk    reg_a(1)/clk              reg_b(0)/ena  Rise
+  2    15.907  3.298  clk     clk    reg_a(0)/clk              reg_b(0)/ena  Rise
+  3    16.071  3.134  clk     clk    reg_a(2)/clk              reg_b(0)/ena  Rise
+  4    16.071  3.134  clk     clk    reg_a(5)/clk              reg_b(0)/ena  Rise
+  5    16.076  3.129  clk     clk    reg_a(4)/clk              reg_b(0)/ena  Rise
+  6    16.221  2.984  clk     clk    reg_a(3)/clk              reg_b(0)/ena  Rise
+  7    16.240  2.965  clk     clk    reg_a(6)/clk              reg_b(0)/ena  Rise
+  8    16.390  2.815  clk     clk    reg_a(7)/clk              reg_b(0)/ena  Rise
+  9    16.427  2.778  clk     clk    reg_current_state(0)/clk  reg_b(0)/ena  Rise
+ 10    16.702  2.503  clk     clk    reg_current_state(1)/clk  reg_b(0)/ena  Rise
+
+                  CTE Path Report
+
+
+Critical path #1, (path slack = 15.902):
+
+SOURCE CLOCK: name: clk period: 20.000000
+     Times are relative to the 1st rising edge
+  DEST CLOCK: name: clk period: 20.000000
+     Times are relative to the 2nd rising edge
+
+NAME                    GATE                       DELAY    ARRIVAL DIR  FANOUT
+reg_a(1)/clk         dffeas                                 0.000   up
+reg_a(1)/q           dffeas                       0.530     0.530   up
+a(1)                 (net)                        0.230                   2
+ix54046z7096/datab   fiftyfivenm_lcell_comb                 0.760   up
+ix54046z7096/combout fiftyfivenm_lcell_comb       0.496     1.256   up
+nx54046z2            (net)                        0.230                   2
+ix61882z7097/datab   fiftyfivenm_lcell_comb                 1.486   up
+ix61882z7097/combout fiftyfivenm_lcell_comb       0.496     1.982   up
+nx61882z3            (net)                        0.200                   1
+ix61882z7096/dataa   fiftyfivenm_lcell_comb                 2.182   up
+ix61882z7096/combout fiftyfivenm_lcell_comb       0.491     2.673   up
+nx61882z2            (net)                        0.630                  16
+reg_b(0)/ena         dffeas                                 3.303   up
+
+		Initial edge separation:     20.000
+		Source clock delay:      -    0.000
+		Dest clock delay:        +    0.000
+		                        -----------
+		Edge separation:             20.000
+		Setup constraint:        -    0.795
+		                        -----------
+		Data required time:          19.205
+		Data arrival time:       -    3.303   ( 60.94% cell delay, 39.06% net delay )
+		                        -----------
+		Slack:                       15.902
+
+
+
+================================================================================================
+                   Input Delay Report
+
+	Input                  Clock Name                            Slack (ns)
+	-----                  ----------                            ----------
+	No input delay constraints.
+
+
+================================================================================================
+                   Output Delay Report
+
+	Output                 Clock Name                            Slack (ns)
+	------                 ----------                            ----------
+	No output delay constraints.
